@@ -13,11 +13,12 @@ For this classification task, we used a Convolutional Neural Network (CNN) archi
 The file structure for this project is as follows:
 ```
 ├── models/
+│   ├── artifacts/
+│   │   ├── model.h5
 │   ├── data/
 │   │   ├── Parasitized/
 │   │   └── Uninfected/
 │   └── src/
-│       ├── model.h5
 │       └── model.ipynb
 ├── requirements.txt
 ├── LICENSE
