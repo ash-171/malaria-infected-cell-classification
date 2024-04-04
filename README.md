@@ -20,6 +20,10 @@ The file structure for this project is as follows:
 │   │   └── Uninfected/
 │   └── src/
 │       └── model.ipynb
+├── Dockerfile
+├── packages.txt
+├── demo.mp4
+├── report.pdf
 ├── requirements.txt
 ├── LICENSE
 └── README.md
