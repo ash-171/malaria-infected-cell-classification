@@ -34,7 +34,6 @@ def classify_image(image):
 # Function to overlay hotspots on the image
 def overlay_hotspots(image, prediction):
     class_index = np.argmax(prediction)
-    # If it's not a binary classification, adjust this part accordingly
     heatmap = prediction[:, class_index]
     heatmap = np.squeeze(heatmap)
     heatmap = cv2.resize(heatmap, (image.shape[1], image.shape[0]))
